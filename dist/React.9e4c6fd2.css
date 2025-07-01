@@ -1,0 +1,21 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 5px;
+  display: flex;
+}
+
+.nav-items > ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+/*# sourceMappingURL=React.9e4c6fd2.css.map */
