@@ -689,12 +689,12 @@ const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
         }, void 0, false, {
             fileName: "app.js",
             lineNumber: 6,
-            columnNumber: 2
+            columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "app.js",
         lineNumber: 5,
-        columnNumber: 5
+        columnNumber: 3
     }, undefined);
 _c = Title;
 const Header = ()=>{
@@ -703,8 +703,8 @@ const Header = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 13,
-                columnNumber: 9
+                lineNumber: 17,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "nav-items",
@@ -714,103 +714,626 @@ const Header = ()=>{
                             children: "Home"
                         }, void 0, false, {
                             fileName: "app.js",
-                            lineNumber: 16,
-                            columnNumber: 17
+                            lineNumber: 20,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "About"
                         }, void 0, false, {
                             fileName: "app.js",
-                            lineNumber: 17,
-                            columnNumber: 17
+                            lineNumber: 21,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "app.js",
-                            lineNumber: 18,
-                            columnNumber: 17
+                            lineNumber: 22,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Cart"
                         }, void 0, false, {
                             fileName: "app.js",
-                            lineNumber: 19,
-                            columnNumber: 17
+                            lineNumber: 23,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "app.js",
-                    lineNumber: 15,
-                    columnNumber: 13
+                    lineNumber: 19,
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 14,
+                lineNumber: 18,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "app.js",
+        lineNumber: 16,
+        columnNumber: 5
+    }, undefined);
+};
+_c1 = Header;
+const restaurantList1 = {
+    name: "KFC",
+    img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56c9ab92bd79745fd152a30fa2525426",
+    cuisines: [
+        "Pizza",
+        "Burger"
+    ],
+    rating: "4.5"
+};
+const restaurantList = [
+    {
+        info: {
+            id: "311806",
+            name: "Burger King",
+            cloudinaryImageId1: "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/dfae2b5a-1431-40b4-8fe3-c833ec343dd0_311806.jpg",
+            cloudinaryImageId: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/12d9ec7c87af4f505f9e3d38f5bcc468.jpg",
+            locality: "Ballupur",
+            areaName: "Ballupur",
+            costForTwo: "\u20B9350 for two",
+            cuisines: [
+                "Burgers",
+                "American"
+            ],
+            avgRating: 4.4,
+            parentId: "166",
+            avgRatingString: "4.4",
+            totalRatingsString: "19K+",
+            sla: {
+                deliveryTime: 33,
+                lastMileTravel: 6.8,
+                serviceability: "SERVICEABLE",
+                slaString: "30-35 mins",
+                lastMileTravelString: "6.8 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2025-07-01 05:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "60% OFF",
+                subHeader: "UPTO \u20B9110"
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {},
+            externalRatings: {
+                aggregatedRating: {
+                    rating: "4.6",
+                    ratingCount: "1.4K+"
+                },
+                source: "GOOGLE",
+                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
+            },
+            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        analytics: {
+            context: "seo-data-2be883b4-68f8-4803-a4d0-42301c9ef767"
+        },
+        cta: {
+            link: "https://www.swiggy.com/city/dehradun/burger-king-ballupur-rest311806",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "413821",
+            name: "Pizza Hut",
+            cloudinaryImageId1: "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/76573715-f3bd-47de-9688-199c8c8002bc_413821.JPG",
+            cloudinaryImageId: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/4a219fbf1b9511ed40dac9b72d1f7d97.jpg",
+            locality: "Saharanpur Road",
+            areaName: "Majra",
+            costForTwo: "\u20B9350 for two",
+            cuisines: [
+                "Pizzas"
+            ],
+            avgRating: 4.2,
+            parentId: "721",
+            avgRatingString: "4.2",
+            totalRatingsString: "3.6K+",
+            sla: {
+                deliveryTime: 21,
+                lastMileTravel: 1.7,
+                serviceability: "SERVICEABLE",
+                slaString: "20-25 mins",
+                lastMileTravelString: "1.7 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2025-07-01 04:00:00",
+                opened: true
+            },
+            badges: {
+                imageBadges: [
+                    {
+                        imageId: "Rxawards/_CATEGORY-Pizza.png",
+                        description: "Delivery!"
+                    }
+                ]
+            },
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {
+                        badgeObject: [
+                            {
+                                attributes: {
+                                    description: "Delivery!",
+                                    imageId: "Rxawards/_CATEGORY-Pizza.png"
+                                }
+                            }
+                        ]
+                    },
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "ITEMS",
+                subHeader: "AT \u20B959"
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {},
+            externalRatings: {
+                aggregatedRating: {
+                    rating: "--"
+                }
+            },
+            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        analytics: {
+            context: "seo-data-2be883b4-68f8-4803-a4d0-42301c9ef767"
+        },
+        cta: {
+            link: "https://www.swiggy.com/city/dehradun/pizza-hut-saharanpur-road-majra-rest413821",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "365569",
+            name: "Faasos - Wraps, Rolls & Shawarma",
+            cloudinaryImageId1: "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/28/5dff1597-343e-4a44-a242-ae42eb697232_365569.JPG",
+            cloudinaryImageId: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/9af0529b0adeb54b5298540ef74abb45.jpg",
+            locality: "Back Side Area",
+            areaName: "Rajpur Road",
+            costForTwo: "\u20B9200 for two",
+            cuisines: [
+                "Kebabs",
+                "Fast Food",
+                "Snacks",
+                "American",
+                "Healthy Food",
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 4.5,
+            parentId: "21809",
+            avgRatingString: "4.5",
+            totalRatingsString: "5.7K+",
+            sla: {
+                deliveryTime: 46,
+                lastMileTravel: 9.7,
+                serviceability: "SERVICEABLE",
+                slaString: "45-50 mins",
+                lastMileTravelString: "9.7 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2025-06-30 23:59:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "ITEMS",
+                subHeader: "AT \u20B999"
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {},
+            externalRatings: {
+                aggregatedRating: {
+                    rating: "--"
+                }
+            },
+            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        analytics: {
+            context: "seo-data-2be883b4-68f8-4803-a4d0-42301c9ef767"
+        },
+        cta: {
+            link: "https://www.swiggy.com/city/dehradun/faasos-wraps-rolls-and-shawarma-back-side-area-rajpur-road-rest365569",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "900538",
+            name: "Olio - The Wood Fired Pizzeria",
+            cloudinaryImageId1: "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/eac18fd4-91b1-4265-b3ec-86cf9a58d8ce_900538.JPG",
+            cloudinaryImageId: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/7acac3fa2904e887eefdd4525493b576.jpg",
+            locality: "Race Course",
+            areaName: "Subhash Road",
+            costForTwo: "\u20B9300 for two",
+            cuisines: [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Fast Food",
+                "Snacks",
+                "Beverages",
+                "Desserts"
+            ],
+            avgRating: 4.2,
+            parentId: "11633",
+            avgRatingString: "4.2",
+            totalRatingsString: "1.2K+",
+            sla: {
+                deliveryTime: 45,
+                lastMileTravel: 7.2,
+                serviceability: "SERVICEABLE",
+                slaString: "40-45 mins",
+                lastMileTravelString: "7.2 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2025-07-01 06:00:00",
+                opened: true
+            },
+            badges: {
+                imageBadges: [
+                    {
+                        imageId: "newg.png",
+                        description: "Gourmet"
+                    }
+                ]
+            },
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {
+                        badgeObject: [
+                            {
+                                attributes: {
+                                    description: "Gourmet",
+                                    imageId: "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "65% OFF",
+                subHeader: "UPTO \u20B9135",
+                headerTypeV2: 12
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {},
+            externalRatings: {
+                aggregatedRating: {
+                    rating: "3.5",
+                    ratingCount: "30"
+                },
+                source: "GOOGLE",
+                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
+            },
+            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        analytics: {
+            context: "seo-data-2be883b4-68f8-4803-a4d0-42301c9ef767"
+        },
+        cta: {
+            link: "https://www.swiggy.com/city/dehradun/olio-the-wood-fired-pizzeria-race-course-subhash-road-rest900538",
+            type: "WEBLINK"
+        }
+    },
+    {
+        info: {
+            id: "253768",
+            name: "McDonald's",
+            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/f05426f2-a35c-4c16-b0be-c7a3bb8e7d79_253768.JPG",
+            locality: "Rajpur Road",
+            areaName: "Karanpur",
+            costForTwo: "\u20B9400 for two",
+            cuisines: [
+                "American"
+            ],
+            avgRating: 4.5,
+            parentId: "630",
+            avgRatingString: "4.5",
+            totalRatingsString: "21K+",
+            sla: {
+                deliveryTime: 39,
+                lastMileTravel: 7.9,
+                serviceability: "SERVICEABLE",
+                slaString: "35-40 mins",
+                lastMileTravelString: "7.9 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2025-07-01 00:00:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "ITEMS",
+                subHeader: "AT \u20B991"
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {},
+            externalRatings: {
+                aggregatedRating: {
+                    rating: "4.1",
+                    ratingCount: "9.4K+"
+                },
+                source: "GOOGLE",
+                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
+            },
+            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        analytics: {
+            context: "seo-data-2be883b4-68f8-4803-a4d0-42301c9ef767"
+        },
+        cta: {
+            link: "https://www.swiggy.com/city/dehradun/mcdonalds-rajpur-road-karanpur-rest253768",
+            type: "WEBLINK"
+        }
+    }
+];
+const RestaurantCard = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "res-card",
+                src: restaurantList[2].info?.cloudinaryImageId,
+                alt: "kfc img"
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 430,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: restaurantList[0].info?.name
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 432,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: restaurantList[0].info?.cuisines.join(", ")
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 433,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: [
+                    restaurantList[0].info?.avgRatingString,
+                    " Star"
+                ]
+            }, void 0, true, {
+                fileName: "app.js",
+                lineNumber: 434,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 12,
+        lineNumber: 429,
         columnNumber: 5
     }, undefined);
 };
-_c1 = Header;
+_c2 = RestaurantCard;
 const Body = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "Body"
-    }, void 0, false, {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "restaurant-list",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 443,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 444,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 445,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 446,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 447,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 448,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 449,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 450,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 451,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 452,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 453,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 454,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 455,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 456,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 457,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 29,
-        columnNumber: 12
+        lineNumber: 442,
+        columnNumber: 5
     }, undefined);
 };
-_c2 = Body;
+_c3 = Body;
 const Footer = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         children: "Footer"
     }, void 0, false, {
         fileName: "app.js",
-        lineNumber: 32,
-        columnNumber: 12
+        lineNumber: 462,
+        columnNumber: 10
     }, undefined);
 };
-_c3 = Footer;
+_c4 = Footer;
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 38,
-                columnNumber: 9
+                lineNumber: 468,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 39,
-                columnNumber: 9
+                lineNumber: 469,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 40,
-                columnNumber: 9
+                lineNumber: 470,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
 };
-_c4 = AppLayout;
+_c5 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 45,
+    lineNumber: 475,
     columnNumber: 13
 }, undefined));
-var _c, _c1, _c2, _c3, _c4;
+var _c, _c1, _c2, _c3, _c4, _c5;
 $RefreshReg$(_c, "Title");
 $RefreshReg$(_c1, "Header");
-$RefreshReg$(_c2, "Body");
-$RefreshReg$(_c3, "Footer");
-$RefreshReg$(_c4, "AppLayout");
+$RefreshReg$(_c2, "RestaurantCard");
+$RefreshReg$(_c3, "Body");
+$RefreshReg$(_c4, "Footer");
+$RefreshReg$(_c5, "AppLayout");
 
   $parcel$ReactRefreshHelpers$5fe5.postlude(module);
 } finally {
