@@ -41,7 +41,7 @@ const restaurantList = [
       name: "Burger King",
       cloudinaryImageId1:
         "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/dfae2b5a-1431-40b4-8fe3-c833ec343dd0_311806.jpg",
-      cloudinaryImageId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/12d9ec7c87af4f505f9e3d38f5bcc468.jpg",
+      cloudinaryImageId: "12d9ec7c87af4f505f9e3d38f5bcc468.jpg",
       locality: "Ballupur",
       areaName: "Ballupur",
       costForTwo: "₹350 for two",
@@ -110,7 +110,7 @@ const restaurantList = [
       name: "Pizza Hut",
       cloudinaryImageId1:
         "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/76573715-f3bd-47de-9688-199c8c8002bc_413821.JPG",
-        cloudinaryImageId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/4a219fbf1b9511ed40dac9b72d1f7d97.jpg",
+      cloudinaryImageId: "4a219fbf1b9511ed40dac9b72d1f7d97.jpg",
       locality: "Saharanpur Road",
       areaName: "Majra",
       costForTwo: "₹350 for two",
@@ -192,7 +192,7 @@ const restaurantList = [
       name: "Faasos - Wraps, Rolls & Shawarma",
       cloudinaryImageId1:
         "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/28/5dff1597-343e-4a44-a242-ae42eb697232_365569.JPG",
-      cloudinaryImageId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/9af0529b0adeb54b5298540ef74abb45.jpg",
+      cloudinaryImageId: "9af0529b0adeb54b5298540ef74abb45.jpg",
       locality: "Back Side Area",
       areaName: "Rajpur Road",
       costForTwo: "₹200 for two",
@@ -266,7 +266,7 @@ const restaurantList = [
       name: "Olio - The Wood Fired Pizzeria",
       cloudinaryImageId1:
         "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/eac18fd4-91b1-4265-b3ec-86cf9a58d8ce_900538.JPG",
-      cloudinaryImageId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640571/7acac3fa2904e887eefdd4525493b576.jpg",
+      cloudinaryImageId: "7acac3fa2904e887eefdd4525493b576.jpg",
       locality: "Race Course",
       areaName: "Subhash Road",
       costForTwo: "₹300 for two",
@@ -358,8 +358,9 @@ const restaurantList = [
     info: {
       id: "253768",
       name: "McDonald's",
-      cloudinaryImageId:
+      cloudinaryImageId1:
         "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/f05426f2-a35c-4c16-b0be-c7a3bb8e7d79_253768.JPG",
+      cloudinaryImageId: "4f861d12ca8fbbe137b0288c21b60b16.jpg",
       locality: "Rajpur Road",
       areaName: "Karanpur",
       costForTwo: "₹400 for two",
@@ -424,15 +425,29 @@ const restaurantList = [
   },
 ];
 
-const RestaurantCard = () => {
+const RestaurantCard = ({
+  name,
+  cuisines,
+  avgRatingString,
+  cloudinaryImageId,
+}) => {
+  // console.log(props)
+  // const {name,cuisines,avgRatingString,cloudinaryImageId} = restaurant.info;
+
   return (
     <div className="card">
-      <img className="res-card" src={restaurantList[2].info?.cloudinaryImageId} alt="kfc img" />
-      
-        <h2>{restaurantList[0].info?.name}</h2>
-        <h3>{restaurantList[0].info?.cuisines.join(", ")}</h3>
-        <h4>{restaurantList[0].info?.avgRatingString} Star</h4>
-      
+      <img
+        className="res-card"
+        src={
+          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640534/" +
+          cloudinaryImageId
+        }
+        alt="kfc img"
+      />
+
+      <h2>{name}</h2>
+      <h3>{cuisines.join(", ")}</h3>
+      <h4>{avgRatingString} Star</h4>
     </div>
   );
 };
@@ -440,21 +455,9 @@ const RestaurantCard = () => {
 const Body = () => {
   return (
     <div className="restaurant-list">
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
+      {restaurantList.map((restaurant) => {
+        return <RestaurantCard {...restaurant.info} key={restaurant.info.id} />;
+      })}
     </div>
   );
 };

@@ -22,11 +22,11 @@
     width: 100px;
 }
 .card{
-    max-width: 200px;
+    max-width: 300px;
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
 }
 .card:hover {
@@ -35,6 +35,7 @@
 
 .res-card{
     width: 100%;
+    border-radius: 5px;
 }
 .restaurant-list{
     display: flex;
