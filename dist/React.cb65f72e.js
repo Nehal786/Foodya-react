@@ -160,7 +160,7 @@
       });
     }
   }
-})({"aj62f":[function(require,module,exports,__globalThis) {
+})({"icAAj":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -168,7 +168,7 @@ var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "cb5ea115f72d0d54";
+module.bundle.HMR_BUNDLE_ID = "cd1566bccb65f72e";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -666,12 +666,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"4ZGjQ":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$5fe5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$5fe5.init();
+},{}],"blcJa":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$4931 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$4931.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5fe5.prelude(module);
+$parcel$ReactRefreshHelpers$4931.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -687,12 +687,12 @@ const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             src: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMPEBUSERMVFhUTGBUaGBYXFRIVFhcVGBIWFxUSFRMYHSggJBolJxcWITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGzIlICUwLzAvLS8tLS8tLS0rLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4AMBEQACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcBAgj/xABAEAACAQIDBQUEBwUIAwAAAAAAAQIDEQQFEgYhMUFRImFxgZETUqGxBzIzQmLB0RQjcrLhFiRDc4KSk8IX4vH/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwQBAgUG/8QALxEBAAICAQMEAQMCBgMAAAAAAAECAxEEEiExBRNBUWEiMnEVMxSBkaGxwSNCYv/aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMWJxMKUdU5KK6sjyZaY43edQ3pjtedVjbSpZ9h5OyqK/epJerRWr6hx7TqLJ7cLPWNzVIp34FyJ34VXpkeNjY9AAAAAAAAAAAAAAAAAAAAAAAAAHk5JJt8FvMTOo3LMRudOd5tj5Yio5N7uEV0jyPH8vk2z5JtPj4em42CMNIiPPy0yssJ3ZnNnTmqU3eEnZfhk+HkdX03mzS8Y7T2n/ZzefxYvWclfMLoelcJXsxxPtcZSorhB6pd7SuvTd6nJz5ZycumKPEd5dHDjinGtknzPaGHBV26+KrXdoRkl03cN3+n4kWHJac2bLvtCTLSIxYseu8smCzWdPCwqVHqlOpZX93VZ8PBm+Dl3px63vO5mdf7tMvGrbPatO0RCxnYc0AAAAAAAAAAAAAAAAAAAAAA0s6f93q/wAEv5WVuZOsF9fSbjf3a/y52eNepDIJ24CJmO8Exvs6Rl9fXRhN/eim/Tee0wZOvFW0/TymWnTkmv5VjI6+qrXxEvuxk/V7l8DicO+8uXNPxDrcqmsePFHyx05OGXzlzq1PVbr/ACZpWZrwbW+bS2mIty4j4rDNmNHT+yUOmltd7kr/APYk5FOmcGFphvuMuVbj0DjAAAAAAAAAAAAAAAAAAAAAAGPEUVUhKD4STT81Y0yUi9ZrPy2pbptFo+HNsRRdOcoS4xbT8jxeSk47zWfh6ul4vWLR8sZo2BrY6Jg6Lhhow5qnbz0nscVJpx4r+P8Ap5fJaLZpt+VEw2OlCnOmrWqWv13dDytORbHS2OPl6G+Ct71vPw2KmZa6dGk42jTact99W/e7W8Sa3Li1MePWorPf8o4401ve++8+ErhaqxWPU43cIK+9W3KNlu8WXsV45PNi9fEKeSvscTot5lazvuOAAAAAAAAAAAAAAAAAAAAAAAIPaDI/b9unZTXG/CS/U5fP9P8Ae/XT93/LocPm+1+m3j/hUsRgalP68JRXVp29eB57Jx8uP99Zh2qZ8d/2ztLbNZO6slVnbRF7lzck+fcdH03he5MZbeIUufy+iJx18rmekcJQc7yuVCo3Z6G+zLlv+6+88nzuJbDeZ1+mfl6PicmuWkRvujqdNyajFNt8Et7fkUq1m06rG5W7WisbmV52dyz9np9r6898u7pE9T6fxPYx/q8z5ed5vJ96/bxCWOgpgAAAAAAAAAAAAAAAAAAAAAAABF7S09WFn3WfpJFH1GvVx7LfBtrPVH7GYm8J0/depeD3P5fEp+j5d0mn1/2s+qY9Xi/2sh2nLVzbSvanCF/rNt+CX9TjesZNY61+3U9Lpu82+m7s3hYww8JaVqkrt2V97ut5a9Ow1pgrOu8q/NyTbNaN9ksX1MAAAAAAAAAAAAAAAAAAAAAAAAAGHF0ddOUfei16ojy166TX7hvjt02i30pmy1b2eJSf3k4+fFfI836Zf2+R0z89nd9Qr14d/XdeT1Dz6j7V19eIcfcSS8Wrv5nl/VMk3z9P09B6dTpw9X2uWCp6KcI+7GK9Ej0mGvTjrX8OFkt1XmfyzEjQAAAAAAAAAAAAAAAAAAAD5qS0pt8k36BiXIsV9KOKk/3dOjBcrqc3bxuiCcsuXbnXnxDV/wDJOP60v+P/ANh7ktP8Zl/H+jawv0oYqL/eU6M13KcH63fyHuy3jnXjzCxZd9KOHnZVqdSm+bVpx9Vv+BvGWFivOpPmNLjl2aUcTHVQqwqL8Mk2vFcV5m8TErVb1tG6yqGOwNTDV/aOL0qepSW9W1Xs3yPL5uPl4+b3Jjtve3pMWfHmxdG++tLwqicdXK1/K1z0/VHT1PP6nelKwOAq4qv7XT2HPU5PcmtV7Lqeaw8bLyM/uTHbe9u9lz48OHoie+luxeYU6K7c0u7n6cT0OTNjx/ul56bRHlDYjayC+pCUvG0V+pSv6nSP2wjnNHwj6m1NZ8FBeTf5lafUss+Ihp70sa2mr9Yf7f6mn9Qzfhj3bNvL9pqkqkYzjFqUkrq6au7XJ8PqF5tFbR5bVyzM6Ww7CwAAAAAAAAAAAAAAAYsVG8JJcXGS+AYnw/NcVZW6FR57w9AAAM2DxdShNTpTlCa4Si7MROm1bTWdxLouy/0jqVqOOSs1b2qW5/5kfzRLF4mNWdDBzdTq/wDq6MqkFT1Jx9np4rfHTblbkb/prX8Oh1b/AFbVfNNpZSvCh2Y+9zfguSORn58z+nH2hXvmmfCvzm5Ntttvi3vfqc2ZmZ3KF4YAD1r4mdDPlyvWpr8cP5kSYf7lf5hmvmHSD1C6AAAAAAAAAAAAAAAAPzlm+GdHEVab3OFSa8lJ2+FirMd3AyRq0w1DDQAAAAFs2I2xngZKlVvLDye9cXTv96Pd1RvW2u0rXH5E451PheM8yuKisRQalSnZ9neknwkn7rOZzeJ0f+SnhfvSP3V8IM5qIAk4ZcqUPa4hWv8AVp/em+/pEtxgjHXry/5R9t+nUbsjqtRyk5Pi+m5eCXQrWt1TuWkztvbP0deJpro7vwir/oWOHTqzVb443aHQD0a2AAAAAAAAAAAAAAAAOPfSxlbpYuNdLsV4q75e0jufm1p9GQZI77crm01fq+1II1JmWFk6bqLfGLtK29wvwclyi+T4XVuIbanW2ENQAAA6B9Ge0dpfsNd3p1LqldXtJ3bpt9Hy7/EkrMTHTK/xM3f27ePhYMRs/V9u6cI9nipO+lRfC8upx78HJ7s1rHb7WZxz1ahuSp0MAt9qta27pF9bcvmTTGHix92bfpp/KBxmLnWm5zd2/RLol0Ofky2yW6rIptMzuWEjYWjYzCfXqtcezH5y/L0Ov6Zj83n+E+GPlaDrJwAAAAAAAAAAAAAAABCbYZEsfhZUvvrtU30mk7eTu0/E1tG4Q58XuU04LWpShJwmnGUW1KL4pp2aZWcSYmJ1LYyvMJ4aoqkLPc1KMt8Zwf1qc1zizMTptS81ncLHV2ZhjqX7Rl29q3tMK32qbfH2cpWvHpf15G/TvvCecMZI6sf+ip1abhJxknGUXZxaaafRpkatMTE6l8hgA9hNxalF2aaaa4pp3TXeGXb8uzqeLyyNelK1RK1Sy3qUd1S3z8zPItf2Zmnl2ceSb4uqPKsN33ve3zPOzO+8oXhgZcLh5VZqEVdyf/1+BvjpN7RWGYjc6dEwWFjRpxpx4RXq+bfiemxY4x0isLkRqNM5IyAAAAAAAAAAAAAAAAAHP/pF2MeIvisNG9VfaQXGotyUor3l8V8Yr033hR5XG6v118uTkLltrLMxq4WqqtGbhOPNcGucZLmn0MxMx4bVvak7q6Hhc8wGcRjSx0FSrqyVRNQTb9yp/wBZfEli1beV+uXFnjWSNSi88+jWvSvLDSVaPKO6NS3yfqjWcc/CPJwrR3r3U3GYOpQloqwlCXuyi4v4kcxMKlqzWdTDAGrof0RZj262Fl9WpH2i8VaM15px9CSneJqv8G/eaNvF0HSqSg/utr9Gedy06LzX6TWjU6Y4Qcmkk23uSXFvoaREzOoYXXZ7J/YR1T+0lx/CvdX5ne4fF9qOq3mVrHTpTJeSAAAAAAAAAAAAAAAAAAAAUnbHYKni9VbD2p1nva4QqPvtwl3+pHam/Cnn4kX718uUZnllXCzdOtTlCS6rc++MuDXgQzEx5cy9LUnVoajMNFiyHbTF4OyjP2lNf4dS8kl+F8V8u42i8wsY+Tkp+V3wu3mAxkFDGUlB9JwVSHippbl4pEvXWfK5HKxXjV4fdbYfLcX2sPU034eyqRlH/a7/AJDorPhmeLhv3rL42f2Dq4DGwrwrQnTWpSTTjPTKLW610+XQxFNTtjFxZx3i0T2bud5bUq4uSpxbuou/BLs23vyOTyuPe+eYrCW9Jm3ZOZNkcMP2n2p9eS7or8y/xuHXF3nvKWmOKpYuJAAAAAAAAAAAAAAAAAAAAAADWx+ApYiDhWhGcXykr+a7zExtralbRqYUvNfovw9R3oVJ0fwv95Hyu7/E0nHHwqX4NJ/b2V3GfRfio/Z1KVRd7lB+jTXxNJxSr24N48S019HOP9yn/wAkTHty0/weVIYD6LsS2nUrU6b/AA6pyXg93zNoxykrwb/M6XzZ3ZyWEXbxVes+kpdheEd/zJK10u4sM08zMp82TgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhdpc4eGilC2ud+PJe94lPmcmcUar5lHkv0x2VmhmGMqXlCVSSXGyuvDgc2ubk271mUMWvPhccjqVJ0IyrfXd77rO13a662sdfj2vOOJv5WKTMx3b5O2AAAAAAjtoK0qeGqSg2pJKzXLtJFflWmuKZjy1vOq7Q2yea1atWUKknJabq9rpppfmU+DyL3vNbTtFivMzqVqOonAAAAAAAAAAAAAAAAADxsxPYc8z7NFipxkouOlW43vvvfgcDlZ4y2iYjWlS9+qW7k+0aw9FU3TcrOTvqS4u/CxNx+bGKnTptTJFY0smY51ChTjOV25pOMVxd1f07zo5eTXHWLT8/Ca14rG0L/bJ3+x3fx7/5Sn/Uv/lH734T+U5pDExvDc19aL4r+neXsGeuWNwlreLR2Y84ziGFS1dqT4RXHxfRGM/Jrhjv5+mL3iqEW2Tv9irfx7/5Sl/Uu/7UfvfhYMrzKGJhqg+HGL4xfeX8OeuWu6pa2i0dmHOM6hhUr9qT4RXG3VvkjTkcmuHz5YteKq7mW03t6M6bp6dVrPVfhJPerLoc/NzoyUmukVsu40+Nin/eJf5cv54Gvp/92f4Yw+V29ouq9Udnqr9rOxzS5r1M9UfZt6nfgImJHxKvBOzlFPpdX9DE3rHbbG4ZDZkAAAAAAAAAAAAABTdssHTpey9nCMb672SV/q8Tj+oY6010xpXyxEa0z7IYGlVozdSnGTU2rtJ7tEdxJwMVL0mbRvuzirEx3Q20tXViZrlC0UuiUV/Up8y28s/jsjyfuWCrk9L9hvoWtU1PVbtatOrjx8i/PGp/h/HfSWaR0IPZSs44qCT3Tun39ltfIpcK01yxH2jxTqzBtBiHUxNRvk3FeEd36+pHyrzbLLF53ZY8xyilHBO0FqjBS1WWq+5tt+p0cvHpHH7R30ltSOhDbI4hwxKiuE00/JOS+RT4F9ZdfaPFOrNPO6zqYio37ziu5J2SIuRab5Za3ndljzjJ6VLBtqC1QUe1zbcldt8+LOhn4+OmDtHeE16RFUTslRVSrUhLhKlNO3GzlBFTg1i15rPzCPFG509xOXQoYuNOd/Ztqzvvs9yd7cn8jW+GMWeKW8E11bU+G3nWChUxsYRvednN9PDyV/Ml5OKLciK1+fLa9d30381wk8PhlTw2uzl2rb5WafTvsWORjtiw9OLbe8TWuqtCjl2FVJOtUtUa3rWm0/4V+ZXrg48U3kn9X8tIrTXdtbG4mT1wbbjGzV+V7ppd24l9NyWnqrM9oZwz5hZjqpwAAAAAAAAAAAAKnt3/AIX+v/qcr1P/ANUGb4bOw/2E/wDMf8kSX07+3P8ALOHwgdqcO4YqbfCdpLzST+NyhzaTGWfyjyxqyWqZ9S/YtCl+8dNQ02fG2lu/Qtzy6exrffWm85I6dIzZLDOeJjJcIJt+aaS+JW4NJtlifppijdmDaLCuniZrlJ6l4S3/AKkfLx9GWWMkasmsfntKeD0KX7yUYxcbPc9ye+1updy8ulsGonvpJbJE1R+x+Gc8Rr5U035tWS+L9CvwMfVk6vprij9W2jndF08TUT95teDd0/iQ8ms0yz/LS8asnM32gpVcLoV9c1G6s7Raab3+Rcz8ul8PTHmUtskTXTT2MmliXd2vCSXe9UXb4Mh9PmIy/wCTXD+5MbYYTVTVVcYOz/hb/X5lr1HFukXj4b5o7bYdl1KtVqV58d0U++2+3kl6kfA3kvbLZjF3mbSybX46UFGnFtarttbm0t2k39RzWrEUr8s5bTHZly7IaEaSlNKbaTbb7O9X3LhY2w8PFWnVbvLNcdYjcorZfGQozm5u2rSlubu7voVOBlpjtbq+UeKYiZXM7iyAAAAAAAAAAAABHZvlEMVp1uS03ta3O173XcV8/Hrm1v4aWpFn3lOWRw0HCDbTd3e3GyXLwNsGCMVdQzWsVjT7zLLqeIjpqLhvTW5p9zM5cNMsasWrFvKE/sdTv9pO3S0b+pT/AKdTflH7MJzL8vhh46aasub4tvq2XMWGuONVSVrFfD4zPLKeJjaouHBrc14MxmwUyxqxasW8odbHU776k7dLRv6lT+nU35R+zCcwGChQhopqy+LfVsu4sVcdemqWtYiNQ1c3ySnibOV4yStqXTo0RZ+LTL3ny1tSLNTBbLUqb1Sbm1ydkvREWPgY6zue7WMUQz4DZ+lQq+0jqbSdk2mlfmjfHxMeO/VDNccRO0bmm0UKlKpTjGV32U2lZq+9lPkc6t6WpEd/DS+SJiYTORYN0aEYv6z3vxe+35eRe4mL28URPlJSNVfeaZZDExSndNcGuK/obZ+PXNGrM2pFo7oinss9ynWk4L7qTXzbSKcenT4tadI/a/LLR2XhGopa5OKaajZcU915dDavp1K36t9mYxRE7T50UoAAAAAAAAAAAAAAAAAAAAAAAAANSOWUVLWqcdV73tz6kMcfFFurp7temPLbJmwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/2Q==",
             alt: "logo"
         }, void 0, false, {
-            fileName: "app.js",
+            fileName: "App.js",
             lineNumber: 6,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
-        fileName: "app.js",
+        fileName: "App.js",
         lineNumber: 5,
         columnNumber: 3
     }, undefined);
@@ -702,7 +702,7 @@ const Header = ()=>{
         className: "header",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 17,
                 columnNumber: 7
             }, undefined),
@@ -713,45 +713,45 @@ const Header = ()=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Home"
                         }, void 0, false, {
-                            fileName: "app.js",
+                            fileName: "App.js",
                             lineNumber: 20,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "About"
                         }, void 0, false, {
-                            fileName: "app.js",
+                            fileName: "App.js",
                             lineNumber: 21,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Contact"
                         }, void 0, false, {
-                            fileName: "app.js",
+                            fileName: "App.js",
                             lineNumber: 22,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Cart"
                         }, void 0, false, {
-                            fileName: "app.js",
+                            fileName: "App.js",
                             lineNumber: 23,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
-                    fileName: "app.js",
+                    fileName: "App.js",
                     lineNumber: 19,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 18,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "app.js",
+        fileName: "App.js",
         lineNumber: 16,
         columnNumber: 5
     }, undefined);
@@ -1169,21 +1169,21 @@ const RestaurantCard = ({ name, cuisines, avgRatingString, cloudinaryImageId })=
                 src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1687640534/" + cloudinaryImageId,
                 alt: "kfc img"
             }, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 439,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 children: name
             }, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 448,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: cuisines.join(", ")
             }, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 449,
                 columnNumber: 7
             }, undefined),
@@ -1193,13 +1193,13 @@ const RestaurantCard = ({ name, cuisines, avgRatingString, cloudinaryImageId })=
                     " Star"
                 ]
             }, void 0, true, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 450,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "app.js",
+        fileName: "App.js",
         lineNumber: 438,
         columnNumber: 5
     }, undefined);
@@ -1213,7 +1213,7 @@ const Body = ()=>{
                 ...restaurant.info,
                 key: restaurant.info.id,
                 __source: {
-                    fileName: "app.js",
+                    fileName: "App.js",
                     lineNumber: 459,
                     columnNumber: 16
                 },
@@ -1221,7 +1221,7 @@ const Body = ()=>{
             });
         })
     }, void 0, false, {
-        fileName: "app.js",
+        fileName: "App.js",
         lineNumber: 457,
         columnNumber: 5
     }, undefined);
@@ -1231,7 +1231,7 @@ const Footer = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         children: "Footer"
     }, void 0, false, {
-        fileName: "app.js",
+        fileName: "App.js",
         lineNumber: 465,
         columnNumber: 10
     }, undefined);
@@ -1241,17 +1241,17 @@ const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 471,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 472,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
-                fileName: "app.js",
+                fileName: "App.js",
                 lineNumber: 473,
                 columnNumber: 7
             }, undefined)
@@ -1261,7 +1261,7 @@ const AppLayout = ()=>{
 _c5 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
-    fileName: "app.js",
+    fileName: "App.js",
     lineNumber: 478,
     columnNumber: 13
 }, undefined));
@@ -1273,7 +1273,7 @@ $RefreshReg$(_c3, "Body");
 $RefreshReg$(_c4, "Footer");
 $RefreshReg$(_c5, "AppLayout");
 
-  $parcel$ReactRefreshHelpers$5fe5.postlude(module);
+  $parcel$ReactRefreshHelpers$4931.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
@@ -27773,6 +27773,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["aj62f","4ZGjQ"], "4ZGjQ", "parcelRequire77dd", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["icAAj","blcJa"], "blcJa", "parcelRequire77dd", {}, null, null, "http://localhost:1234")
 
-//# sourceMappingURL=React.f72d0d54.js.map
+//# sourceMappingURL=React.cb65f72e.js.map

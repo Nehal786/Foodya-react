@@ -47,4 +47,18 @@
   gap: 10px;
   display: flex;
 }
+
+.search-container {
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+
+.search-container > input {
+  border-right: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 50%;
+  padding: 20px;
+}
 /*# sourceMappingURL=React.9e4c6fd2.css.map */
