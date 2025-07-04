@@ -27356,17 +27356,33 @@ var _restaurantCard = require("./RestaurantCard");
 var _restaurantCardDefault = parcelHelpers.interopDefault(_restaurantCard);
 var _s = $RefreshSig$();
 function filterData(searchText, restaurantData) {
-    console.log("checking", restaurantData);
-    const filteredData = restaurantData.filter((restaurants)=>restaurants.info.name.includes(searchText));
+    //   console.log("checking", restaurantData);
+    const filteredData = restaurantData.filter((restaurants)=>restaurants.info.name.toLowerCase().includes(searchText.toLowerCase()));
     return filteredData;
 }
-function handleError(searchText, setRestaurantData) {
-    if (!searchText) setRestaurantData((0, _constants.restaurantList));
-}
+// function handleError(searchText, setRestaurantData) {
+//   if (!searchText) {
+//     setRestaurantData(restaurantList);
+//   }
+// }
 const Body = ()=>{
     _s();
     const [searchText, setSearchText] = (0, _react.useState)("");
-    const [restaurantData, setRestaurantData] = (0, _react.useState)((0, _constants.restaurantList));
+    const [restaurantData, setRestaurantData] = (0, _react.useState)([]);
+    const [allRestaurants, setAllRestaurants] = (0, _react.useState)([]);
+    (0, _react.useEffect)(()=>{
+        getRestaurants();
+        console.log("useEffect render");
+    }, [
+        searchText
+    ]);
+    async function getRestaurants() {
+        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9046136&lng=77.614948&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        const json = await data.json();
+        setRestaurantData(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setAllRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    }
+    console.log("first render");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27377,33 +27393,33 @@ const Body = ()=>{
                         className: "search-input",
                         placeholder: "Search for restaurants and food",
                         value: searchText,
-                        onKeyUp: ()=>{
-                            handleError(searchText, setRestaurantData);
-                        },
+                        //   onKeyUp={() => {
+                        //     handleError(searchText, setRestaurantData);
+                        //   }}
                         onChange: (e)=>{
                             setSearchText(e.target.value);
                         }
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 27,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                         className: "search-btn",
                         onClick: ()=>{
-                            const data = filterData(searchText, restaurantData);
+                            const data = filterData(searchText, allRestaurants);
                             setRestaurantData(data);
                         },
                         children: "Search"
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 39,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 26,
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27414,7 +27430,7 @@ const Body = ()=>{
                         key: restaurant.info.id,
                         __source: {
                             fileName: "src/components/Body.js",
-                            lineNumber: 52,
+                            lineNumber: 71,
                             columnNumber: 13
                         },
                         __self: undefined
@@ -27422,13 +27438,13 @@ const Body = ()=>{
                 })
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 49,
+                lineNumber: 68,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
 };
-_s(Body, "fwMlXMW5d6UgR0+HoiB1JzlObK8=");
+_s(Body, "HDEyHe9R7r4m4mr2mqYrQCkJakI=");
 _c = Body;
 exports.default = Body;
 var _c;
