@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { restaurantList } from "../constants";
 import RestaurantCard from "./RestaurantCard";
+import Shimmer from "./Shimmer";
 
 function filterData(searchText, restaurantData) {
 //   console.log("checking", restaurantData);
@@ -40,7 +41,7 @@ const Body = () => {
    }
    console.log("first render")
 
-  return (
+  return (allRestaurants.length === 0) ? <Shimmer/> :  (
     <>
       <div className="search-container">
         <input
