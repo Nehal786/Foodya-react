@@ -2,10 +2,9 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React project",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"parcel index.html"
+    "start": "parcel index.html"
   },
   "author": "Nehal Ahmed Ansari",
   "license": "ISC",
@@ -14,9 +13,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.19.0"
   },
-  "browserList":[
+  "browserList": [
     "last 2 Chrome versions"
   ]
 }

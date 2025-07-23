@@ -36,7 +36,7 @@ const Body = () => {
     const json = await data.json();
     setRestaurantData(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setAllRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    console.log("from asyn fun",json)
+    // console.log("from asyn fun",json)
     
    }
    console.log("first render")
